@@ -1,4 +1,4 @@
-## Efficient Image Super-Resolution with Feature Interaction Weighted Hybrid Network (ACCEPTED WITH MANDATORY MINOR REVISIONS)
+## Efficient Image Super-Resolution with Feature Interaction Weighted Hybrid Network (Accepted with mandatory minor revisions)
 
 [Paper (Arxiv)]() | [Supplementary Material]() | [Project Page]() 
 
