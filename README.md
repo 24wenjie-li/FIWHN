@@ -65,13 +65,13 @@ All pretrained model can be found in <a href="https://github.com/24wenjie-li/CFI
 ## Testing
 Note: Due to the time lapse, I have graduated from the original lab, and server cleanup resulted in the loss of original model weights . Therefore the current open source weighting results will have a floating error of 0.01~0.02 dB in the PSNR metrics for some of the test sets, but the results for most of the datasets are consistent with the original!```
 # FIWHN x2
-python main.py --scale 2 --model FIWHNx2 --save test_results/FIWHNx2 --pre_train experiments/model_best_x2.pt --test_only --save_results --data_test Set5 #Set14, B100, Urban100, Manga109
+python main.py --scale 2 --model FIWHNx2 --save test_results/FIWHNx2 --pre_train experiments/model_best_x2.pt --test_only --save_results --data_test Set5
 
 # FIWHN x3
-python main.py --scale 3 --model FIWHNx3 --save test_results/FIWHNx3 --pre_train experiments/model_best_x3.pt --test_only --save_results --data_test Set5 #Set14, B100, Urban100, Manga109
+python main.py --scale 3 --model FIWHNx3 --save test_results/FIWHNx3 --pre_train experiments/model_best_x3.pt --test_only --save_results --data_test Set5
 
 # FIWHN x4
-python main.py --scale 4 --model FIWHNx4 --save test_results/FIWHNx4 --pre_train experiments/model_best_x4.pt --test_only --save_results --data_test Set5 #Set14, B100, Urban100, Manga109
+python main.py --scale 4 --model FIWHNx4 --save test_results/FIWHNx4 --pre_train experiments/model_best_x4.pt --test_only --save_results --data_test Set5
 ```
 
 ## Test Parmas and Muti-adds
