@@ -423,9 +423,9 @@ class MODEL(nn.Module):
         out2_trans = self.attention2(out2_trans)
         
         res = x
-        out_1 = self.MY1(x)
-        out_2 = self.MY2(out_1 + self.conv_up(out2_trans))
-        out_3 = self.MY3(out_2)
+        out_1 = self.MY1(x) # self.MY1() share parameters with out1
+        out_2 = self.MY2(out_1 + self.conv_up(out2_trans)) # self.MY2() share parameters with out2
+        out_3 = self.MY3(out_2) # self.MY3() share parameters with out3
         
         out_concat_1 = self.channel_shuffle1(self.conv_concat1(torch.cat([out_1, out_2], dim=1)))
         out_concat_2 = self.channel_shuffle2(self.conv_concat2(torch.cat([out_concat_1, out_3], dim=1)))
