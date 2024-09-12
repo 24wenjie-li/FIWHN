@@ -27,7 +27,7 @@ Please download the DIV2K_decoded with npy format from <a href="https://pan.quar
 
 The test set contains five datasets, Set5, Set14, B100, Urban100, Manga109. The benchmark can be downloaded from <a href="https://pan.baidu.com/s/1Vb68GWERriLmJRtYfm2uEg">here</a>.[Baidu Netdisk][Password:8888]
 
-Extract the file and place it in the same location as args.data_dir in <a href="https://github.com/24wenjie-li/CFIN/blob/main/option.py">option.py</a>.
+Extract the file and place it in the same location as args.data_dir in <a href="https://github.com/24wenjie-li/FIWHN/blob/master/option.py">option.py</a>.
 
 The code and datasets need satisfy the following structures:
 ```
