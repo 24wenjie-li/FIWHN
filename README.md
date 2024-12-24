@@ -59,7 +59,7 @@ All pretrained model can be found in <a href="https://github.com/24wenjie-li/FIW
   python main.py --scale 3 --model FIWHNx3 --patch_size 144 --save experiments/FIWHNx3
   
   # FIWHN x4
-  python main.py --scale 4 --model FIWHNx3 --patch_size 192 --save experiments/FIWHNx3
+  python main.py --scale 4 --model FIWHNx4 --patch_size 192 --save experiments/FIWHNx4
 ```
 
 ## Testing
