@@ -1,6 +1,6 @@
 ## Efficient Image Super-Resolution with Feature Interaction Weighted Hybrid Network (IEEE TRANSACTIONS ON MULTIMEDIA, 2024)
 
-> [[Paper(arxiv)](https://arxiv.org/abs/2212.14181)] &emsp; [[Paper(IEEE)]()] &emsp; [[Code](https://github.com/24wenjie-li/FIWHN/)] &emsp;
+> [[Paper(arxiv)](https://arxiv.org/abs/2212.14181)] &emsp; [[Paper(IEEE)](https://ieeexplore.ieee.org/document/10814081)] &emsp; [[Code](https://github.com/24wenjie-li/FIWHN/)] &emsp;
 
 
 <p align="center">
