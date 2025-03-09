@@ -5,7 +5,7 @@ from data import srdata
 
 
 class DIV2K(srdata.SRData):
-    def __init__(self, args, name='RealSR_decoded', train=True, benchmark=False):
+    def __init__(self, args, name='DIV2K_decoded', train=True, benchmark=False):
         super(DIV2K, self).__init__(
             args, name=name, train=train, benchmark=benchmark
         )
