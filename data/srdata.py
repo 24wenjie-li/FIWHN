@@ -101,7 +101,7 @@ class SRData(data.Dataset):
         return lr, hr, filename
 
     def get_patch(self, lr, hr):
-        scale = [1,1,1]#self.scale
+        scale = self.scale
         multi_scale = len(self.scale) > 1
         if self.train:
             lr, hr = common.get_patch(
